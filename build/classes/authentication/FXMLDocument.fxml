@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #FAEBD7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="authentication.FXMLDocumentController">
+   <children>
+      <Button layoutX="152.0" layoutY="410.0" mnemonicParsing="false" onAction="#authenticate" prefHeight="41.0" prefWidth="99.0" text="Sign In" />
+      <TextField fx:id="userField" layoutX="59.0" layoutY="259.0" prefHeight="48.0" prefWidth="282.0" promptText="Username" />
+      <PasswordField fx:id="passField" layoutX="59.0" layoutY="335.0" prefHeight="48.0" prefWidth="282.0" promptText="Password" />
+      <Label fx:id="labelWelcome" layoutX="59.0" layoutY="209.0" prefHeight="17.0" prefWidth="257.0" text="Welcome, please sign in:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

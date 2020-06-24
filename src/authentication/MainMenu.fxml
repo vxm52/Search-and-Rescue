@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #FAEBD7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="authentication.FXMLDocumentController">
+   <children>
+      <Label fx:id="menuLabel" layoutX="112.0" layoutY="104.0" text="Main Menu">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="55.0" layoutY="229.0" mnemonicParsing="false" onAction="#showCivMap" prefHeight="99.0" prefWidth="115.0" text="Civilian Map" />
+      <Button layoutX="231.0" layoutY="229.0" mnemonicParsing="false" prefHeight="99.0" prefWidth="115.0" text="Messages" />
+      <Button layoutX="50.0" layoutY="542.0" mnemonicParsing="false" onAction="#showSarMap" prefHeight="65.0" prefWidth="301.0" text="Search and Rescue Map" />
+      <Button layoutX="231.0" layoutY="386.0" mnemonicParsing="false" prefHeight="99.0" prefWidth="115.0" text="Settings" />
+      <Button layoutX="55.0" layoutY="384.0" mnemonicParsing="false" onAction="#showCivList" prefHeight="99.0" prefWidth="115.0" text="Civilian List" />
+   </children>
+</AnchorPane>

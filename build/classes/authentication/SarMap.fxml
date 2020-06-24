@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #FAEBD7;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="authentication.SarMapController">
+   <children>
+      <Rectangle arcHeight="5.0" height="446.0" layoutX="10.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="381.0" />
+      <ImageView fitHeight="439.0" fitWidth="376.0" layoutX="13.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Screen%20Shot%202019-12-10%20at%201.53.55%20PM%20copy.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" fill="#e8cdae" height="117.0" layoutY="472.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="401.0" />
+      <ImageView fitHeight="130.0" fitWidth="95.0" layoutX="108.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/point-of-interest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="62.0" layoutX="26.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/146-1461428_drop-clipart-transparent-blood-drop-clipart-transparent.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8eda95" height="60.0" layoutX="216.0" layoutY="487.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f59898" height="60.0" layoutX="311.0" layoutY="487.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="60.0" />
+      <Label layoutX="20.0" layoutY="558.0" prefHeight="17.0" prefWidth="78.0" text="Blood Truck" />
+      <Label layoutX="142.0" layoutY="558.0" prefHeight="17.0" prefWidth="78.0" text="POI" />
+      <Label layoutX="218.0" layoutY="544.0" prefHeight="45.0" prefWidth="107.0" text="Searched" />
+      <Label layoutX="320.0" layoutY="544.0" prefHeight="45.0" prefWidth="73.0" text="Priority" />
+      <Label layoutX="109.0" layoutY="624.0" prefHeight="38.0" prefWidth="198.0" text="Alerts Sent!" textFill="#ab2424">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="alertBtn" layoutX="71.0" layoutY="608.0" mnemonicParsing="false" onAction="#hideBtn" prefHeight="70.0" prefWidth="259.0" text="Send Alert" textFill="#a41717">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

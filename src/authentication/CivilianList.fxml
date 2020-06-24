@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #FAEBD7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="authentication.CivilianListController">
+   <children>
+      <TableView fx:id="civTable" layoutX="14.0" layoutY="14.0" prefHeight="378.0" prefWidth="373.0">
+        <columns>
+          <TableColumn fx:id="firstNameCol" prefWidth="87.0" text="First" />
+          <TableColumn fx:id="lastNameCol" prefWidth="74.0" text="Last" />
+            <TableColumn fx:id="ageCol" prefWidth="47.0" text="Age" />
+            <TableColumn fx:id="locationCol" prefWidth="164.0" text="Location" />
+        </columns>
+      </TableView>
+      <TextField fx:id="firstNameField" layoutX="14.0" layoutY="411.0" prefHeight="40.0" prefWidth="180.0" promptText="First Name" />
+      <TextField fx:id="ageField" layoutX="14.0" layoutY="524.0" prefHeight="40.0" prefWidth="180.0" promptText="Age" />
+      <TextField fx:id="lastNameField" layoutX="14.0" layoutY="467.0" prefHeight="40.0" prefWidth="180.0" promptText="Last Name" />
+      <TextField fx:id="locationField" layoutX="204.0" layoutY="411.0" prefHeight="40.0" prefWidth="180.0" promptText="Location" />
+      <Button fx:id="addButton" layoutX="14.0" layoutY="605.0" mnemonicParsing="false" onAction="#addCiv" prefHeight="57.0" prefWidth="75.0" text="Add" />
+      <Button fx:id="updateBtn" layoutX="212.0" layoutY="605.0" mnemonicParsing="false" onAction="#updateCiv" prefHeight="57.0" prefWidth="75.0" text="Update" />
+      <Button fx:id="deleteBtn" layoutX="309.0" layoutY="605.0" mnemonicParsing="false" onAction="#deleteCiv" prefHeight="57.0" prefWidth="75.0" text="Delete" />
+      <TextField fx:id="usernameField" layoutX="204.0" layoutY="467.0" prefHeight="40.0" prefWidth="180.0" promptText="Username" />
+      <TextField fx:id="passwordField" layoutX="204.0" layoutY="524.0" prefHeight="40.0" prefWidth="180.0" promptText="Password" />
+      <Button fx:id="detailsButton" layoutX="112.0" layoutY="605.0" mnemonicParsing="false" onAction="#showDetails" prefHeight="57.0" prefWidth="75.0" text="Details" />
+   </children>
+</AnchorPane>
